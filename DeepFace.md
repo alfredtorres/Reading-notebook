@@ -24,5 +24,7 @@ DeepFace里的特征矢量和LBP的特征矢量有很多相似点：
 采用X2距离相似性![X2 distance](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig.png)  
 权重wi通过一个线性SVM学习。  
 ### Siamese Network
-此外，还测试了一个端到端的度量学习方法**Siamese Network**,采用的距离公式为![Siamses distance](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig3.png)  
+此外，还测试了一个端到端的度量学习方法**Siamese Network**,采用的距离公式为![Siamses distance](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig3.png)，参数可以通过cross-entropy 和BP训练得到。
+### 总结
+在得到图像的特征矢量后，如何进行人俩验证，选择合适的距离来计算相似性，这可能是一个研究的方向。也就是**mertic learing**，需要把本文提出的两种方法都复现一下，就在之前VGG-FACE网络的基础上
 ## Experiment实验
