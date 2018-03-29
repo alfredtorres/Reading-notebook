@@ -6,4 +6,7 @@
   Size _blockSize:表示block大小，cvSize()  
   Size _blockStride:表示block的移动步长  
   Size _cellSize:cell的大小  
-  int _nbins：bins的大小，一般为9
+  int _nbins：bins的大小，一般为9
+简书上有个例子  
+        imageMat = imread("Desktop/640_480.png", 1);//图像大小640 * 480  
+        HOGDescriptor *hog = new HOGDescriptor(cvSize(64, 48), cvSize(32, 32), cvSize(8, 8), cvSize(16, 16), 9);
