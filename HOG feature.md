@@ -3,7 +3,7 @@
 ## 2 维度计算
 OpenCV里的HOG特征算子的源码是  
 
-    HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, [])//_nbins后面还有一堆参数
+    HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, [])//_nbins后面还有一堆参数
   Size _winSize：表示滑动窗口的大小，cvSize(int n,int m)  
   Size _blockSize:表示block大小，cvSize()  
   Size _blockStride:表示block的移动步长  
