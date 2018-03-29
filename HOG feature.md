@@ -1,6 +1,8 @@
 # HOG特征
 ## 1
-## 2 opencv source code
+## 2 维度计算
+OpenCV里的HOG特征算子的源码是  
+
     HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, [])//_nbins后面还有一堆参数
   Size _winSize：表示滑动窗口的大小，cvSize(int n,int m)  
   Size _blockSize:表示block大小，cvSize()  
@@ -25,4 +27,10 @@
 一个窗口的维度是15 * 36 = 540。  
 图片大小是640 * 480，窗口滑动步长是  compute(imageMat, descriptors, Size(64, 48), Size(0, 0))    里的第三个参数，则共由
 （（640 - 64）/ 64 + 1） * （（480 - 48）/ 48 + 1）= 100 个windows，所以总的维数是 100 * 540 = 54000  
-为了验证维度计算的对不对，我换了一张自己图片，大小是324 * 223，其他参数不变，按照上述计算过程，得到的维度应该为
+
+为了验证维度计算的对不对，我换了一张自己图片，大小是324 * 223，其他参数不变，按照上述计算过程，只有最终的窗口数变化
+（（324 - 64）/ 64 + 1） * （（223 - 48）/ 48 + 1）= 20 个windows，共20 * 540 = 10800维度  
+输出是  
+    
+    descriptors.size = 10800  
+说明维度计算没问题。
