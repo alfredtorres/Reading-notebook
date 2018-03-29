@@ -20,6 +20,9 @@ face vertification是指对于两个图片，判断其是否属于同一个人�
 DeepFace里的特征矢量和LBP的特征矢量有很多相似点：
 1. 没有负值
 2. 具有稀疏性
-3. 数据都在[0,1]之间
-
+3. 数据都在[0,1]之间  
+采用X2距离相似性![X2 distance](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig.png)  
+权重wi通过一个线性SVM学习。  
+### Siamese Network
+此外，还测试了一个端到端的度量学习方法**Siamese Network**,采用的距离公式为![Siamses distance](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig3.png)  
 ## Experiment实验
