@@ -42,4 +42,8 @@ OpenCV里的HOG特征算子的源码是
 按照*Computer Vision: a modern approach*  P112 fig.5.15表示，HOG特征图是可以反应图像边缘信息的，但是我得到特征图后毫无效果，不懂。  
 
 ___  
-未完待续
+未完待续  
+## 5 参考资料  
+[目标检测的图像特征提取之（一）HOG特征](https://blog.csdn.net/zouxy09/article/details/7929348)  
+[简书：HOG特征提取OpenCV](https://www.jianshu.com/p/dc79d3f9ac7c)  
+[OpenCV，配置](https://docs.opencv.org/3.3.0/d2/dca/group__xfeatures2d__nonfree.html)
