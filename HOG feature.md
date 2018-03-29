@@ -1,6 +1,10 @@
 # HOG特征
-## 1
-## 2 维度计算
+## 1  HOG算子介绍
+Higtogram Of Gradient Orientations方向梯度直方图特征算子是传统计算机视觉领域里用来进行物体检测的特征描述子(fearture descriptor)，HOG是SIFT特征的一种变种。  
+HOG的思想是**计算**和**统计**图像局部区域的梯度方向直方图来构成特征，要注意统计的思想。Delal在CVPR 2005中提出的利用HOG和SVM进行行人检测。  
+## 2 HOG计算
+*HOG的计算有很多文章都说了，暂时没看HOG的计算原理，先留着坑吧。*
+## 3 维度计算
 OpenCV里的HOG特征算子的源码是  
 
     HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, [])//_nbins后面还有一堆参数
