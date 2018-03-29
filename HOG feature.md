@@ -1,7 +1,7 @@
 # HOG特征
 ## 1
 ## 2 opencv source code
-    HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, [])//_nbins后面还有一堆参数
+    HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, [])//_nbins后面还有一堆参数
   Size _winSize：表示滑动窗口的大小，cvSize(int n,int m)  
   Size _blockSize:表示block大小，cvSize()  
   Size _blockStride:表示block的移动步长  
@@ -12,8 +12,15 @@
     imageMat = imread("Desktop/640_480.png", 1);//图像大小640 * 480  
     HOGDescriptor *hog = new HOGDescriptor(cvSize(64, 48), cvSize(32, 32), cvSize(8, 8), cvSize(16, 16), 9);
     vector<float> descriptors;
-    hog->compute(imageMat, descriptors, Size(2, 2), Size(0, 0));
-    cout << "descriptors.size = " << descriptors.size() << endl;//输出hog特征描绘子的维度
+    hog->compute(imageMat, descriptors, Size(64, 48), Size(0, 0));
+    cout << "descriptors.size = " << descriptors.size() << endl;//输出hog特征描绘子的维度  
 输出是  
-    
-    descriptors.size = 54000
+    
+    descriptors.size = 54000  
+  
+这个54000是怎么得到的呢？1个cell是9个维度（指定的9还是3 * 3？这个不懂）；cell_size=16 * 16,block_size=32 * 32,所以一个block包括4个cell，
+也就是一个block有4 * 9=36个维度。  
+窗口的大小是64 * 48，block大小是32 * 32，block步长是8 * 8，所以在一个窗口内有（（64 - 32）/ 8 + 1） * （（48 - 32）/ 8 + 1）= 15 个block，
+一个窗口的维度是15 * 36 = 540。  
+图片大小是640 * 480，窗口滑动步长是  compute(imageMat, descriptors, Size(64, 48), Size(0, 0))    里的第三个参数，则共由
+（（640 - 64）/ 64 + 1） * （（480 - 48）/ 48 + 1）= 100 个windows，所以总的维数是 100 * 540 = 54000
