@@ -9,7 +9,11 @@ represent：利用一个9层的CNN提取人脸表征，9层的CNN参数量为120
 
 ## Representation特征提取  
   本文提出用于人脸分类的DNN结构如图所示  
-  ![DNN结构](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig2.png)
+  ![DNN结构](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig2.png)  
+  这个DNN用来分类，输入是经过3D人脸校准的RGB图像，输入输出、神经网络参数都可以在论文中查到，不多叙述。  
+  网络的‘F7’层用来表示人脸特征的表征矢量，然后‘F7’后接一个softmax分类器。训练的目的就是使得正确分类的概率最大，利用最小化cross-entropy loss来实现。
+  网络中使用了ReLU来使网络最大程度的非线性化，在第一个全连接层后加入dropout技术，使网络表示的稀疏性更强。  
+  在网络训练好后，对于输入图像*I*,利用前向网络计算得到特征表示*G(I)*
 ## Verification Metric验证度量
 
 ## Experiment实验
