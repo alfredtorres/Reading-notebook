@@ -9,7 +9,7 @@ represent：利用一个9层的CNN提取人脸表征，9层的CNN参数量为120
 
 ## Representation特征提取  
   本文提出用于人脸分类的DNN结构如图所示  
-  ![DNN结构](C:\Users\Zhangziyu\Pictures\Notebook\deepface_fig2.png)
+  ![DNN结构](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/deepface_fig2.png)
 ## Verification Metric验证度量
 
 ## Experiment实验
