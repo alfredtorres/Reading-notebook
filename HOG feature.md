@@ -38,3 +38,8 @@ OpenCV里的HOG特征算子的源码是
     
     descriptors.size = 10800  
 说明维度计算没问题。
+## 4 特征可视化
+按照*Computer Vision: a modern approach*  P112 fig.5.15表示，HOG特征图是可以反应图像边缘信息的，但是我得到特征图后毫无效果，不懂。  
+
+___  
+未完待续
