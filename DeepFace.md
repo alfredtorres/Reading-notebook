@@ -7,8 +7,9 @@ represent：利用一个9层的CNN提取人脸表征，9层的CNN参数量为120
 效果：在LFW数据集上的准确率是97.35%。
 ## Alignment校准
 
-## Representation特征提取
-
+## Representation特征提取  
+  本文提出用于人脸分类的DNN结构如图所示  
+  ![DNN结构](C:\Users\Zhangziyu\Pictures\Notebook\deepface_fig2.png)
 ## Verification Metric验证度量
 
 ## Experiment实验
