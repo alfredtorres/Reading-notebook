@@ -51,5 +51,9 @@ pip install  pygraphviz‑1.3.1‑cp27‑none‑win_amd64.whl
     $TOOLS/draw_net.py \
         D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese_train_test.prototxt \
         D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese_train_test.png
+  
+  
 得到两张图![Siamese Network](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese.png)  
-![Siamese Network_Train_Test](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese_train_test.png)
+SiameseNetwork网络图  
+![Siamese Network_Train_Test](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese_train_test.png)  
+Train Test网络图
