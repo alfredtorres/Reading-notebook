@@ -18,4 +18,5 @@ Caffe里正巧有对Siamese网络的教程，数据是mnist数据集。就照着
         $DATA/t10k-labels.idx1-ubyte \
         D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese_test_leveldb
     echo "Done."  
-这和caffe/examples/siamese里的.sh文件有几点不同需要注意  convert_mnist_siamese_data.exe不是  convert_mnist_siamese_data.bin
+    
+这和caffe/examples/siamese里的.sh文件有几点不同需要注意*convert_mnist_siamese_data.exe*不是*convert_mnist_siamese_data.bin*。数据文件格式中是*.*不是*-*。
