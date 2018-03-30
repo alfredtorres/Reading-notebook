@@ -2,7 +2,7 @@
 Caffe里正巧有对Siamese网络的教程，数据是mnist数据集。就照着caffe里的Siamese 做了一遍，记录一下遇到的问题和结果。
 # Siamese Network Training with Caffe
 ## 1 数据准备
-数据用的还是mnist数据集，和LuNet的数据集是同一个。但是处理的方法是不一样，我一开始以为可以用LeNet的数据
+数据用的还是mnist数据集，和LeNet的数据集是同一个。但是处理的方法是不一样，我一开始以为可以用LeNet的数据
 **create_minist_siamese.h**   
 
     EXAMPLES=D:/Software/caffe/caffe-master/Build/x64/Release
@@ -30,3 +30,26 @@ Caffe里正巧有对Siamese网络的教程，数据是mnist数据集。就照着
 求解器：**mnist_siamese_solver.prototxt**  
 train：**train_mnist_siamese.sh**  
 运行sh train_mnist_siamese.sh 后迭代50000次即可结束。
+## 3 Plotting the results
+可视化结果，  draw_net.sh和    mnist_siamese.ipynb  
+这里都是问题，设计到其中的draw.py
+需要  
+pip install pydot
+pip install graphviz  
+下载graphviz安装（graphviz-2.38.msi），并添加环境变量
+安装pygraphviz的时候，pip install pygraphviz --install-option="--include-path=D:\Software\graphviz\include" --install-option="--library-path==D:\Software\graphviz\lib\release\lib"  
+然后下载 pygraphviz‑1.3.1‑cp27‑none‑win_amd64.whl  
+pip install  pygraphviz‑1.3.1‑cp27‑none‑win_amd64.whl 
+全搞完重新启动电脑。
+**Draw_Net.sh**  
+
+    TOOLS=D:/Software/caffe/caffe-master/Build/x64/Release/pycaffe
+    EXAMPLES=D:/Software/caffe/caffe-master/examples/mysiamese
+    $TOOLS/draw_net.py \
+        D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese.prototxt \
+        D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese.png
+    $TOOLS/draw_net.py \
+        D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese_train_test.prototxt \
+        D:/Software/caffe/caffe-master/examples/mysiamese/mnist_siamese_train_test.png
+得到两张图![Siamese Network](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese.png)  
+![Siamese Network_Train_Test](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese_train_test.png)
