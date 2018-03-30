@@ -22,5 +22,5 @@ Caffe里正巧有对Siamese网络的教程，数据是mnist数据集。就照着
     
 这和caffe/examples/siamese里的.sh文件有几点不同需要注意*convert_mnist_siamese_data.exe*不是*convert_mnist_siamese_data.bin*。数据文件格式中是.不是-。  
 然后得到两个文件夹：*mnist_siamese_train_leveldb*和*mnist_siamese_test_leveldb*  
-![test_fig](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/Siamese_fig1.png)
+![test_fig](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/Siamese_fig1.png)  
 数据准备over，这个按照caffe教程走没什么问题。  
