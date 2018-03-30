@@ -57,4 +57,10 @@ SiameseNetwork网络图
 ![Siamese Network_Train_Test](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese_train_test.png)  
 Train Test网络图  
 ![Visualize the learned Siamese embedding](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/Visualize%20the%20learned%20Siamese%20embedding.png)  
-最终的Siamese网络的可视化图
+最终的Siamese网络的可视化图  
+# 参考资料
+[pygraphviz安装过程](https://www.cnblogs.com/AimeeKing/p/5021675.html)  
+[如何在64位windows上安装pygraphviz](https://www.douban.com/note/618740837/)  
+[caffe 使能python接口使用draw_net.py绘制网络结构图过程](https://blog.csdn.net/lemianli/article/details/53034432)  
+[caffe中的siamese network（二）](https://blog.csdn.net/langb2014/article/details/53036758)  
+[caffe中的siamese network（一）](https://blog.csdn.net/langb2014/article/details/53036216)
