@@ -55,4 +55,6 @@ pip install  pygraphviz‑1.3.1‑cp27‑none‑win_amd64.whl
 得到两张图![Siamese Network](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese.png)  
 SiameseNetwork网络图  
 ![Siamese Network_Train_Test](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/mnist_siamese_train_test.png)  
-Train Test网络图
+Train Test网络图  
+![Visualize the learned Siamese embedding](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/Visualize%20the%20learned%20Siamese%20embedding.png)  
+最终的Siamese网络的可视化图
