@@ -24,3 +24,9 @@ Caffe里正巧有对Siamese网络的教程，数据是mnist数据集。就照着
 然后得到两个文件夹：*mnist_siamese_train_leveldb*和*mnist_siamese_test_leveldb*  
 ![test_fig](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/Siamese_fig1.png)  
 数据准备over，这个按照caffe教程走没什么问题。  
+## 2 Siamese网络模型
+*Siamese网络的模型caffe中都有，有几点需要注意的，但是不是自己写的，也就多说了。等研究Siamese的时候再分析*
+网络模型：**mnist_siamese.prototxt**，**mnist_siamese_train_test.prototxt**  
+求解器：**mnist_siamese_solver.prototxt**  
+train：**train_mnist_siamese.sh**  
+运行sh train_mnist_siamese.sh 后迭代50000次即可结束。
