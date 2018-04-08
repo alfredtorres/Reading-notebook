@@ -32,7 +32,7 @@ python中有一个可以直接画roc曲线的函数
 其中，y_label表示是真实值，y_scores表示预测值，pos_label=NONE表示是当y_scores>threshold时表示的是正例，相当于这个正例是自己规定的。  
 对于人脸识别中还用到了距离  
 
-    sklearn.metrics.pairwise.pairwise_distances(featureleft, featureright, metric='cosine')   
+    sklearn.metrics.pairwise.pairwise_distances(featureleft, featureright, metric='cosine')   
     
 metric='euclidean'表示用欧式距离，即向量在空间里的绝对距离
 metric='cosine'表示用余弦距离，但是pairwise里的余弦距离使用1-cos(a)的。
