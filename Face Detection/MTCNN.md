@@ -22,3 +22,11 @@ stage 3：用一个更有力的CNN细调结果，输出人脸特征点位置。
 * Stage1：建立一个全连接FCN，叫P-Net(Proposal Network)，获取候选窗口和bonding box回归向量，参考的是[Multi-view Face Detection Using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1502.02766.pdf)。然后用估计的bounding box回归向量正定候选窗口，最后用NMS来消除重叠的窗口。  
 * Stage2:将stage1中得到候选窗口送到下一个R-Net(Refined Network)中,进一步的去除错误的无人脸的候选窗口，还是利用NMS和bounding box regression.  
 * Stage3:这一部分和上一部差不多，但是这个阶段要输出人脸边框和关键点。
+#### CNN结构
+![CNN Architechures](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/MTCNN_fig2.jpg)  
+三个CNN的机构
+#### Training
+采用三个tasks训练CNN检测器，face classification检测人脸有无,bounding box regression边框回归， facial landmark localizaiton面部特征点定位。  
+* face classification：判断有误，二分类识别，用cross-entopy loss训练
+* bounding box regression：回归问题，预测的边框和真实边框的差，用Euclidean loss训练
+* facial landmark localizaiton：也是回归问题，预测5个特征点的位置，用Euclidean loss训练
