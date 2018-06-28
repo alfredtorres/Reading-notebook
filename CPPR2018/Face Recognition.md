@@ -34,6 +34,7 @@ CVPR 2018上关于人脸识别的论文有不少，我统计的是62篇，名字
 * Weakly-Supervised_Deep_Convolutional_Neural_Network_Learning_for_Facial_Action_Unit_Intensity_Estimation
 * Weakly_Supervised_Facial_Action_Unit_Recognition_Through_Adversarial_Training
 * Learning_Facial_Action_Units_From_Web_Images_With_Scalable_Weakly_Supervised_Clustering
-
+** others**
+* A Face-to-Face Neural Conversation Model - 根据文字生成相应的表情
 
 
