@@ -6,6 +6,8 @@
 由于设计了两条特征流路线，学习到的有用特征不仅可以表示身份或者属性，而且可以用来表示输入图片的全部信息。
 进一步的研究表明，提取的特征不仅在人脸识别上取得了目前一流水平(在LFW数据集上)，而且对于人脸属性识别也有非常竞争力的表现(在celebA和LFWA)。
 此外，本文提出的系统可以在语义上控制脸部延伸和编辑
+## experiment
+作者从face identification、Face Attribute Recognition、Face Editing三个方面对提出的模型进行了验证。说明本文模型的三个应用方向，face editing是个不错的方向，用对抗网络可以编辑生成自己想要的图片。
 ## my opine
 ![the distilling and dispelling autoencoder model](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/exploring%20disentangled%20feature%20repren-fig2.jpg)   
 文中提出了两种特征：与**id信息有关**的特征fT，与**id信息无关**的特征fP.  
