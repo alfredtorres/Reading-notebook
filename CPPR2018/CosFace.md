@@ -1,4 +1,5 @@
 # CosFace: Large margin cosine loss
+## abstract
 face recognition的中心问题包括face verificaiton和face indentifification,两者都涉及face feature discrimination特征分辨能力。
 但是，传统的softmax loss没有特征分辨能力，为了解决这个问题，最近的一些研究提出了center loss, large margin
 softmax loss,angular softmax loss。所有这些改进loss的方法都有一个共同的思想：maximzing inter-class variance和
