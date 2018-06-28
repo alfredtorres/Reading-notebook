@@ -14,7 +14,7 @@ CVPR 2018上关于人脸识别的论文有不少，我统计的是62篇，名字
 * UV-GAN__Adversarial_Facial_UV_Map_Completion_for_Pose-Invariant_Face_Recognition
 
 **2D face recognition: detectiong, alignment --loss design**
-* Exploring_Disentangled_Feature_Representation_Beyond_Face_Identification
+* [Exploring_Disentangled_Feature_Representation_Beyond_Face_Identification](https://github.com/alfredtorres/Reading-notebook/blob/master/CPPR2018/Exploring%20Disentangled%20Feature%20Representation%20Beyond%20Face%20Identification.md)
 * CosFace:Large_Margin_Cosine_Loss_for_Deep_Face_Recognition
 * Dynamic_Feature_Learning_for_Partial_Face_Recognition
 * Mean-Variance_Loss_for_Deep_Age_Estimation_From_a_Face
