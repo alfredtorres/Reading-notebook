@@ -18,7 +18,7 @@ CVPR 2018上关于人脸识别的论文有不少，我统计的是62篇，名字
 * [CosFace:Large_Margin_Cosine_Loss_for_Deep_Face_Recognition](https://github.com/alfredtorres/Reading-notebook/blob/master/CPPR2018/CosFace.md)
 * Dynamic_Feature_Learning_for_Partial_Face_Recognition
 * Mean-Variance_Loss_for_Deep_Age_Estimation_From_a_Face
-* Ring_Loss__Convex_Feature_Normalization_for_Face_Recognition
+* [Ring_Loss__Convex_Feature_Normalization_for_Face_Recognition](https://github.com/alfredtorres/Reading-notebook/blob/master/CPPR2018/Ring%20loss:%20Convex%20Feature%20Normalization%20for%20Face%20Recognition.md)
 * Robust_Facial_Landmark_Detection_via_a_Fully-Convolutional_Local-Global_Context_Network
 * Wing_Loss_for_Robust_Facial_Landmark_Localisation_With_Convolutional_Neural_Networks
 
