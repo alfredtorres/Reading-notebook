@@ -5,7 +5,7 @@
 * [2017 CVPR]**PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation**
 * [2017 NIPS]Pointnet++: Deep hierarchical feature learning on point sets in a metric space
 * [2017 ICCV]Escape from cells: Deep kd-networks for the recognition of 3d point cloud models
-* [2018 CVPR]Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition
+* [2018 CVPR][Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition](https://github.com/alfredtorres/Reading-notebook/blob/master/3D%20Face%20Recognition/Disentangling%20Features%20in%203D%20Face%20Shapes%20for%20Joint%20Face%20Reconstruction%20and%20Recognition.md)
 * [2018 CVPR]Sparse Photometric 3D Face Reconstruction Guided by Morphable Models   
 
 ## 参考博客：
