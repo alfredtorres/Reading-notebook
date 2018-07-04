@@ -5,7 +5,7 @@
 与现有的3D人脸重建方法不同，本文提出的方法直接从单个2D图像回归密集3D人脸形状，并且基于符合3D人脸模型明确的分别处理三维人脸新装中的身份和残差部分。   
 针对提出的网络，训练时利用一种联合的loss函数，同时测量face id引起的loss和3D face shape重建引起的loss。   
 为了构建训练数据，本文提出一种将3D形变模型拟合成2D多视图的方法。
-## 
+## 本文思想
 ![fig-1](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/disentangle%20features%20in%203D%20face_fig-1.jpg)    
 * (a) 现有的3D建模方法，只有一个reconstruct loss
 * (b) 本文提出的方法，多了一个Identification loss，引入了参差的思想
