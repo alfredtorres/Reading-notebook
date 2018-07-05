@@ -7,7 +7,7 @@
 * [2017 ICCV]Escape from cells: Deep kd-networks for the recognition of 3d point cloud models
 * [2018 CVPR][Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition](https://github.com/alfredtorres/Reading-notebook/blob/master/3D%20Face%20Recognition/Disentangling%20Features%20in%203D%20Face%20Shapes%20for%20Joint%20Face%20Reconstruction%20and%20Recognition.md)
 * [2018 CVPR]Sparse Photometric 3D Face Reconstruction Guided by Morphable Models   
-* [2018 CVPR]Extreme 3D_Face Reconstruction：Seeing Through Occlusions
+* [2018 CVPR]Extreme 3D Face Reconstruction：Seeing Through Occlusions
 * [2018 CVPR]Learning From Millions of 3D Scans for Large-Scale 3D Face Recognition
 * [2018 CVPR]Disentangling 3D Pose in a Dendritic CNN for Unconstrained 2D Face Alignment
 * [2018 CVPR]Factoring Shape, Pose, and Layout From the 2D Image of a 3D Scene
