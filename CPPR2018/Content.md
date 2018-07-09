@@ -22,6 +22,7 @@ CVPR 2018上关于人脸识别的论文有不少，我统计的是62篇，名字
 * Robust_Facial_Landmark_Detection_via_a_Fully-Convolutional_Local-Global_Context_Network
 * Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks
 * Towards Pose Invariant Face Recognition in the Wild
+* Pose-Robust Face Recognition via Deep Residual Equivariant Mapping
 
 **GAN**
 * Face_Aging_With_Identity-Preserved_Conditional_Generative_Adversarial_Networks
