@@ -55,3 +55,20 @@ src/20180402-114759 \
 --use_fixed_image_standardization
 ```
 使用flipped_image、去特征平均值、图片标准化，三个步骤很重要，但是怎么加呢？
+### 3.3 只加去均值
+```
+python src/validate_on_lfw.py \
+D:\Software\caffe\caffe-master\data\30_Labeled_Faces_in_the_Wild_Home\lfw_facenet \
+src/20180402-114759 \
+--distance_metric 1 \
+--subtract_mean
+```
+得到的结果
+```
+............
+Accuracy: 0.98833+-0.00441
+Validation rate: 0.89667+-0.02494 @ FAR=0.00067
+Area Under Curve (AUC): 0.999
+Equal Error Rate (EER): 0.012
+```
+说明特征去均值是有用的啊，但是为什么我在matlab里去均值后效果不变呢？
