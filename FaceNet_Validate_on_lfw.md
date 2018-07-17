@@ -94,3 +94,10 @@ Area Under Curve (AUC): 0.999
 Equal Error Rate (EER): 0.013
 ```
 我的库只加flip可以提高2%，说明确实有用
+### 3.5 fixed_image_standardization固定图片标准化
+facenet源码中图片标准化   
+`(tf.cast(image, tf.float32) - 127.5)/128.0`  
+我也照着这样对图片进行标准化，加上flip和mean_extract
+得到的准确率为 0.9349 
+### 4 总结
+这三个预处理方式给我自己的库带来了10%的提升！
