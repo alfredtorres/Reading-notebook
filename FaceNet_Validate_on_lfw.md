@@ -95,6 +95,22 @@ Equal Error Rate (EER): 0.013
 ```
 我的库只加flip可以提高2%，说明确实有用
 ### 3.5 fixed_image_standardization固定图片标准化
+只加standardization 
+```
+python src/validate_on_lfw.py \
+D:\Software\caffe\caffe-master\data\30_Labeled_Faces_in_the_Wild_Home\lfw_facenet \
+src/20180402-114759 \
+--distance_metric 1 \
+--use_fixed_image_standardization
+```
+得到的结果   
+```
+............
+Accuracy: 0.99417+-0.00367
+Validation rate: 0.96000+-0.02261 @ FAR=0.00067
+Area Under Curve (AUC): 1.000
+Equal Error Rate (EER): 0.006
+```    
 facenet源码中图片标准化   
 `(tf.cast(image, tf.float32) - 127.5)/128.0`  
 我也照着这样对图片进行标准化，加上flip和mean_extract
