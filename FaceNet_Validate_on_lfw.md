@@ -71,7 +71,12 @@ Validation rate: 0.89667+-0.02494 @ FAR=0.00067
 Area Under Curve (AUC): 0.999
 Equal Error Rate (EER): 0.012
 ```
-说明特征去均值是有用的啊，但是为什么我在matlab里去均值后效果不变呢？
+说明特征去均值是有用的啊，但是为什么我在matlab里去均值后效果不变呢？   
+去均值的正确方法：配合flip正确率到90%
+```
+feature_mean=mean(feature);feature为978*1024，mean为1*1024
+feature=bsxfun(@minus, feature, feature_mean);按特征取mean
+```
 ### 3.4 只加镜像flip
 ```
 python src/validate_on_lfw.py \
