@@ -72,3 +72,20 @@ Area Under Curve (AUC): 0.999
 Equal Error Rate (EER): 0.012
 ```
 说明特征去均值是有用的啊，但是为什么我在matlab里去均值后效果不变呢？
+### 3.4 只加镜像flip
+```
+python src/validate_on_lfw.py \
+D:\Software\caffe\caffe-master\data\30_Labeled_Faces_in_the_Wild_Home\lfw_facenet \
+src/20180402-114759 \
+--distance_metric 1 \
+--use_flipped_images
+```
+得到的结果
+```
+........................
+Accuracy: 0.98733+-0.00455
+Validation rate: 0.91000+-0.02832 @ FAR=0.00100
+Area Under Curve (AUC): 0.999
+Equal Error Rate (EER): 0.013
+```
+我的库只加flip可以提高2%，说明确实有用
