@@ -8,7 +8,7 @@ ECCV,2018
 rectification network和recognition network都是通过end-to-end的方法学习得到。
 ### 主要内容
 <div align="center">
-<img src="https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig2.jpg" width="640" height="%480">  
+<img src="https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig2.jpg" width="640" height="480">  
 </div>  
 
 系统包括：**Recitification module纠正模块**、**Recognition module识别模块**
@@ -20,5 +20,5 @@ rectification network和recognition network都是通过end-to-end的方法学习
 2. **Regularization**正则化：
 
 <div align="center">
-<img src=https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg" width="640" height="%480">  
+<img src=https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg" width="640" height="480">  
 </div>  
