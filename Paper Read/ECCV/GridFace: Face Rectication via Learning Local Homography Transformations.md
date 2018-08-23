@@ -7,5 +7,10 @@ ECCV,2018
 为了得到canonical views，利用基于自然人脸分布的正则化处理。
 rectification network和recognition network都是通过end-to-end的方法学习得到。
 ### 主要内容
+<div align="center">
+<img src="https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig2.jpg" height="%50" width="%50" >  
+</div>
+
+系统
+
 ![fig1](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg)
-![fig2](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig2.jpg)
