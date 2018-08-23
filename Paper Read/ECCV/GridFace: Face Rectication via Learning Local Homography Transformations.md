@@ -20,5 +20,5 @@ rectification network和recognition network都是通过end-to-end的方法学习
 2. **Regularization**正则化：
 
 <div align="center">
-<img src=https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg" width="640" height="480">  
+<img src="https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg" width="%70" height="%70">  
 </div>  
