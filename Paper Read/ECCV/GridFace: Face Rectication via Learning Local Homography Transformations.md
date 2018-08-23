@@ -19,5 +19,6 @@ rectification network和recognition network都是通过end-to-end的方法学习
 1. **Recitificaiton Netword**：输入图片I，得到n平方个残差矩阵H，变换矩阵H=H+单位矩阵，那么输出图片为HxI,即纠正后的图片。
 2. **Regularization**正则化：
 
-
-![fig1](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg)
+<div align="center">
+<img src=https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/gridface_fig1.jpg" width="640" height="%480">  
+</div>  
