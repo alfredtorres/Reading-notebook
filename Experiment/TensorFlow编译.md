@@ -17,3 +17,5 @@
 2. [Windows下编译TensorFlow1.3 C++ library及创建一个简单的TensorFlow C++程序](https://blog.csdn.net/jacke121/article/details/80411437)
 3. [Building a static Tensorflow C++ library on Windows](https://joe-antognini.github.io/machine-learning/build-windows-tf)
 4. [如何在windows环境中使用vs2015编译tensorflow v1.5](https://blog.csdn.net/h8832077/article/details/78988488)
+5. [在Windows 10 下用源码编译基于GPU的tensorflow.dll](https://zhuanlan.zhihu.com/p/29029860)
+6. [TensorFlow GPU版本在Windows10下的编译](https://zhuanlan.zhihu.com/p/34942873)
