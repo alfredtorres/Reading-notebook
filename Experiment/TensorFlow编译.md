@@ -12,6 +12,9 @@
  * swigwin 3.0.10
  * cmake 3.6
  * tensorflow 1.7.0
+ ------2018.9.3-----------
+ 参考了多个链接，官方给的cuda和cudnn版本编译起来未成功，现在我连系统都重装了。  
+ 冷静，加油。
 ## 参考链接
 1. [TensorFlow github](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/cmake)
 2. [Windows下编译TensorFlow1.3 C++ library及创建一个简单的TensorFlow C++程序](https://blog.csdn.net/jacke121/article/details/80411437)
