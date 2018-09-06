@@ -71,3 +71,9 @@ if __name__ == '__main__':
 
 ```
 **准确率：acc=0.92**
+
+### 参考链接
+[人脸识别算法-特征脸方法（Eigenface）及python实现](https://blog.csdn.net/u010006643/article/details/46417127)  
+[opencv学习之路（40）、人脸识别算法——EigenFace、FisherFace、LBPH](https://www.cnblogs.com/little-monkey/p/8118938.html)  
+[Opencv tutorials:Face Recognition with OpenCV](https://docs.opencv.org/3.4.2/da/d60/tutorial_face_main.html)  
+[cv::face::FaceRecognizer Class Reference](https://docs.opencv.org/3.4.2/dd/d65/classcv_1_1face_1_1FaceRecognizer.html#ac8680c2aa9649ad3f55e27761165c0d6)
