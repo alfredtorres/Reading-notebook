@@ -18,6 +18,24 @@
  冷静，加油。  
  ------2018.9.7---------  
  终于编出dll和lib文件了，测试能用，回来写攻略。
+ ## 编译
+ ### 1 cmake配置
+ ![cmake配置](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/cmake-tensorflow.png)  
+ 填上正确的swigin.exe路径，注意把GRPC_SUPPORT取消，不然很会慢；勾选SNAPPY_SUPPORT  
+ 其他的按图示勾选就行，PYTHON_BINDINGS可以不勾，但是我忘记取消了就一起编译了。 
+ CUDA上面的红色可以不管。 
+ 然后开始Configure和Generate。 
+ ### 2 开始编译
+ VS选项，工具-选项-项目和解决方案-生成并运行，将最大并行项目生成数设置为1。 
+ 打开cmd，输入`set PreferrenToolArchitecture=x64`   
+ 选择x64,Release模式
+ 开始编译... 
+ 多生成几次，直到失败的很少  
+ 注意一点：snapyfn.cc编译的时候要改一下原来的snappy.h
+ ### 3 编译完成
+ 在cmake/build/Release文件夹能发现很多文件  
+ ![Release package](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/Release.png)  
+ 主要的就是dll文件和lib文件
 ## 参考链接
 1. [TensorFlow github](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/cmake)
 2. [Windows下编译TensorFlow1.3 C++ library及创建一个简单的TensorFlow C++程序](https://blog.csdn.net/jacke121/article/details/80411437)
