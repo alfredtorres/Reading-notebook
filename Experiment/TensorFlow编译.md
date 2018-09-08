@@ -16,7 +16,7 @@
  ------2018.9.3-----------  
  参考了多个链接，官方给的cuda和cudnn版本编译起来未成功，现在我连系统都重装了。  
  冷静，加油。  
- ------2018.9.7---------
+ ------2018.9.7---------  
  终于编出dll和lib文件了，测试能用，回来写攻略。
 ## 参考链接
 1. [TensorFlow github](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/cmake)
