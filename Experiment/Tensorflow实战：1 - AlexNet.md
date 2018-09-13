@@ -13,7 +13,7 @@ AlexNet论文[ImageNet Classification with Deep Convolutional Neural Networks](h
 4. 数据增强，data augmentation，也是避免过拟合，数据量越大，模型的泛化能力越好
 #### 网络结构
 ![AlexNet](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/AlexNet.png)    
-    <table>
+    <table align="center">
         <tr>
             <th>layer name</th>
             <th>output size</th>
@@ -22,6 +22,79 @@ AlexNet论文[ImageNet Classification with Deep Convolutional Neural Networks](h
         <tr>
             <th>input</th>
             <th>227x227x3</th>
+            <th>-</th>
+        </tr>
+        <tr>
+            <th>conv1</th>
+            <th>55x55x96</th>
+            <th>kernel_size:11x11,  
+                filtes:96,  
+                strides=4,  
+                paddings=0</th>
+        </tr>
+        <tr>
+            <th>maxpool1</th>
+            <th>27x27x96</th>
+            <th>kernel_size:3x3,  
+                strides=2</th>
+        </tr>
+        <tr>
+            <th>conv2</th>
+            <th>27x27x256</th>
+            <th>kernel_size:5x5,  
+                filtes:256,  
+                strides=1,  
+                paddings=2</th>
+        </tr>
+        <tr>
+            <th>maxpool2</th>
+            <th>13x13x256</th>
+            <th>kernel_size:3x3,  
+                strides=2</th>
+        </tr>
+        <tr>
+            <th>conv3</th>
+            <th>13x13x384</th>
+            <th>kernel_size:3x3,  
+                filtes:384,  
+                strides=1,  
+                paddings=1</th>
+        </tr>
+        <tr>
+            <th>conv4</th>
+            <th>13x13x384</th>
+            <th>kernel_size:3x3,  
+                filtes:384,  
+                strides=1,  
+                paddings=1</th>
+        </tr>
+        <tr>
+            <th>conv5</th>
+            <th>13x13x256</th>
+            <th>kernel_size:3x3,  
+                filtes:256,  
+                strides=1,  
+                paddings=1</th>
+        </tr>
+        <tr>
+            <th>maxpool3</th>
+            <th>6x6x256</th>
+            <th>kernel_size:3x3,  
+                strides=2</th>
+        </tr>
+        <tr>
+            <th>fc1</th>
+            <th>4096</th>
+            <th>-</th>
+        </tr>
+        <tr>
+            <th>fc2</th>
+            <th>4096</th>
+            <th>-</th>
+        </tr>
+        <tr>
+            <th>classifier</th>
+            <th>1000</th>
             <th>-</th>
         </tr>
     </table>
