@@ -13,7 +13,7 @@ AlexNet论文[ImageNet Classification with Deep Convolutional Neural Networks](h
 4. 数据增强，data augmentation，也是避免过拟合，数据量越大，模型的泛化能力越好
 #### 网络结构
 ![AlexNet](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/AlexNet.png)    
-    <table align="center">
+    <table style="float:center">
         <tr>
             <th>layer name</th>
             <th>output size</th>
