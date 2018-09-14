@@ -26,7 +26,7 @@ OE-CNN结构[亮点是汪峰？？]
 由于把特征分别为两个age-related和identity-related，所以涉及到多任务训练。   
 1 age-related    
 学习年龄的loss可以看作回归问题，直接用2范数就行  
-![age loss](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/OE-CNN3.png)
+![age loss](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/OE-CNN3.png)    
 2 identity-related    
 剩下的age-identity loss就可以A-softmax来实现，本文作者用的是A-softmax相似的一种   
 ![identity loss](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/OE-CNN4.png)
