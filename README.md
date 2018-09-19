@@ -11,3 +11,4 @@
 5. [Siamese Network Training with Caffe](https://github.com/alfredtorres/Reading-notebook/blob/master/Experiment/Caffe%20Siamese%20Network.md)
 6. [OpenCV EigenFace特征脸](https://github.com/alfredtorres/Reading-notebook/blob/master/Experiment/OpenCV_eigenface%E4%BD%BF%E7%94%A8.md)
 7. [TensorFlow编译c++接口](https://github.com/alfredtorres/Reading-notebook/blob/master/Experiment/TensorFlow%E7%BC%96%E8%AF%91.md)
+8. [C++实现facenet提取特征](https://github.com/alfredtorres/Reading-notebook/blob/master/Experiment/C%2B%2B%E5%AE%9E%E7%8E%B0facenet%E6%8F%90%E5%8F%96%E7%89%B9%E5%BE%81.md)
