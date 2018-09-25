@@ -5,6 +5,7 @@ Light-CNN是作者从2015年提出的一个轻量级的人脸识别网络，最�
 尤其是，提出了MFM结构(max feature-map)，而不是用ReLU，从另一个角度提高了特征图有用信息的利用率。
 
 ## 数据集预处理
+### 透视变换
 按照论文中的要求，训练的数据集为**CASIA-WebFace**，测试集为**LFW**和**YTF**。
 训练集的预处理要求：
 1. 检测人脸5个关键点，左眼、右眼、鼻尖、嘴巴左、嘴巴右。
@@ -141,6 +142,29 @@ with open(bounding_boxes_filename, "w") as text_file:
                             print('time cost:',time.time() - time_start)
 print('done')
 print('time cost:',time.time() - time_start)                                                                                
+```
+### 制作数据集
+之所以把这个写出来，是因为我遇到了一个大坑，原本可以很轻松的。。。   
+**切记，图片分类编码从0开始**类似这样的
+```
+0000045\001.jpg    0
+0000045\003.jpg    0
+0000045\004.jpg    0
+0000045\005.jpg    0
+0000045\006.jpg    0
+0000045\007.jpg    0
+0000045\008.jpg    0
+0000045\009.jpg    0
+0000045\010.jpg    0
+0000045\011.jpg    0
+0000045\012.jpg    0
+0000045\013.jpg    0
+0000045\014.jpg    0
+0000045\015.jpg    0
+0000099\001.jpg    1
+0000099\003.jpg    1
+0000099\004.jpg    1
+      ……
 ```
 ## Light-CNN9网络结构
 ![Light-CNN 9layers](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/lightCNN_9.png)  
