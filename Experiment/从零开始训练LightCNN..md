@@ -4,7 +4,7 @@
 ## Light-CNN9网络结构
 ![Light-CNN 9layers](https://github.com/alfredtorres/Reading-notebook/blob/master/MyImage/lightCNN_9.png)  
 Pytorch代码,借鉴[原作](https://github.com/AlfredXiangWu/face_verification_experiment)   
-第一个9层模型完全按照最早的2015年的论文<Learning Robust Deep Face Representation>和原作在2018 TIFS上发的没有引入Inception模块
+第一个9层模型完全按照最早的2015年的论文《Learning Robust Deep Face Representation》和原作在2018 TIFS上发的没有引入Inception模块
 ```
 class network_simple9(nn.Module):
     def __init__(self, num_classes=10575):
