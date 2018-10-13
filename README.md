@@ -3,6 +3,7 @@
 ## 论文阅读   
 1. [3D人脸识别论文目录](https://github.com/alfredtorres/Reading-notebook/blob/master/Paper%20Read/3D%20face%20Content.md)
 2. [CVPR2018，人脸识别论文笔记](https://github.com/alfredtorres/Reading-notebook/tree/master/Paper%20Read/CPPR2018)
+3. [目标检测论文目录](https://github.com/alfredtorres/Reading-notebook/blob/master/Paper%20Read/Object%20detection/REAMME.md)
 ## 实验
 1. [DeepID复现](https://github.com/alfredtorres/Reading-notebook/tree/master/Experiment/DeepID)
 2. [TensorFlow安装教程](https://github.com/alfredtorres/Reading-notebook/blob/master/Experiment/TensorFlow%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
